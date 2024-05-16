@@ -1,0 +1,6 @@
+  - balance - Page "Balance" with form
+  - sale - Page "Sale" for selling items
+  - purchase - Page "Purchase" for buying items
+  - account - Included in all pages on navbar
+  - list - On main page, as a table
+  - review - Page "History" for checking the history of all operations

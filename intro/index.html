@@ -1,0 +1,97 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
+
+    <!-- 
+        Syntax of css:
+        selector {
+            property: value;
+        } 
+    -->
+
+    <!-- <style>
+        li {
+            color: blueviolet;
+            font-size: 24px;
+        }
+        
+        .my-text {
+            color:chocolate;
+        }
+
+        #unique-text {
+            color:cornflowerblue;
+        }
+
+        div {
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+    </style> -->
+</head>
+<body>
+    <header class="navbar">
+        <section class="navbar-section">
+            <a href="..." class="navbar-brand mr-2">Spectre.css</a>
+            <a href="..." class="btn btn-link">Docs</a>
+            <a href="..." class="btn btn-link">GitHub</a>
+        </section>
+        <section class="navbar-section">
+            <div class="input-group input-inline">
+            <input class="form-input" type="text" placeholder="search">
+            <button class="btn btn-primary input-group-btn">Search</button>
+            </div>
+        </section>
+    </header>
+
+    <h1>This is Heading 1</h1>
+    <div>
+        <p class="my-text" >This is a paragraph.</p>
+
+        <button class="btn btn-success btn-lg" >my super button</button>
+
+        <p>This is another paragraph</p>
+        <p id="unique-text">This is parapgraph with ID</p>
+    </div>
+
+    <a href="https://google.com">
+        Let's google that!
+    </a>
+
+    <img width="600" height="400" src="https://www.happypawsvets.com/wp-content/uploads/2018/06/Running-Off-Leash-the-Right-Way_-Etiquette-for-the-Dog-Park.jpg"
+        alt="Dogs running in the park">
+
+    <ol>
+        <li>First item</li>
+        <li>Second Item</li>
+    </ol>
+
+    <ul>
+        <li>First item</li>
+        <li>Second item</li>
+    </ul>
+
+    <table>
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+        </tr>
+        <tr>
+            <td>Data 1</td>
+            <td>Data 2</td>
+        </tr>
+    </table>
+
+    <form action="/submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
